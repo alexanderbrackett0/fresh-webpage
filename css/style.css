@@ -4,8 +4,27 @@
   align-items: center;
   gap: 40px;
   padding: 80px 300px;
-  background-color: rgb(22, 44, 61);
+  background-color: rgb(16, 30, 45);
   color: white;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 475px;
+  gap: 12px;
+}
+
+.hero-text h1 {
+  margin-bottom: 0;
+}
+
+.hero-text p {
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 18px;
 }
 
 .hero-text {
@@ -15,10 +34,11 @@
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
+  width: 350px;
 }
 
 .hero button {
-  background-color: rgb(6, 93, 244);
+  background-color: rgb(60, 123, 231);
   color: white;
   border: none;
   border-radius: 8px;
@@ -28,21 +48,23 @@
 }
 
 .placeholder {
-  width: 300px;
+  width: 500px;
   height: 200px;
   background-color: gray;
   border: 1px solid #aaa;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
+  margin-right: 475px;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
-    margin: 0;
+    margin-right: 580px;
     padding: 0; 
+    font-weight: bold;
 }
 
 .nav-links a {
@@ -54,10 +76,11 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 200px;
-  background-color: rgba(22,44,61);
+  background-color: rgba(16,30,45);
   color: white;
 }
 
 .logo {
   color: white;
+  font-weight: bold;
 }
