@@ -1,6 +1,36 @@
-.nav-bar {
+.hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.hero-text {
+  max-width: 400px;
+}
+
+.placeholder {
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 200px;
 }
