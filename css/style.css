@@ -17,6 +17,11 @@
   font-weight: 900;
 }
 
+.hero button {
+  background-color: rgb(6, 93, 244);
+  color: white;
+}
+
 .placeholder {
   width: 300px;
   height: 200px;
