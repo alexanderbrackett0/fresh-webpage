@@ -35,5 +35,7 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 200px;
+  background-color: rgba(22,44,61);
+  color: white;
 }
 
