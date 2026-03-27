@@ -4,6 +4,7 @@
   align-items: center;
   gap: 40px;
   background-color: rgb(16, 30, 45);
+  padding-bottom: 100px;
   color: white;
 }
 
@@ -102,4 +103,25 @@
   height: 150px;
   border: 3px solid #3882f6;
   border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-color: rgb(238, 237, 237);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+
+.quote p {
+  font-size: 36px;
+  width: 720px;
+  margin-bottom: 0px;
+}
+
+.quote h3 {
+  display: flex;
+  margin-top: 1px;
 }
