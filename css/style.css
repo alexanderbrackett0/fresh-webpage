@@ -127,3 +127,41 @@
   margin-top: 1px;
   margin-left: 420px;
 }
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #3882f6;
+  width: 50em;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cta-text h3 {
+  margin: 0;
+}
+
+.cta-text p {
+  margin: 0;
+}
+
+.cta button {
+  padding-left: 3em;
+  padding-right: 3em;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  border: 2px solid white;
+}
