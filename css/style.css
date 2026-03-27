@@ -175,3 +175,11 @@ background-color: rgb(16, 30, 45);
   outline: none;
   border: 2px solid white;
 }
+
+.footer {
+  background-color: rgb(16, 30, 45);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  width: 100%;
+}
