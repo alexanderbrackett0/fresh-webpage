@@ -63,7 +63,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 200px;
   background-color: rgba(16,30,45);
   color: white;
 }
