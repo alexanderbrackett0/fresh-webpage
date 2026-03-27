@@ -108,20 +108,22 @@
 .quote {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
   background-color: rgb(238, 237, 237);
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 100px;
+  width: 100%;
 }
 
 .quote p {
-  font-size: 36px;
-  width: 720px;
+  font-size: 30px;
+  width: 640px;
   margin-bottom: 0px;
 }
 
 .quote h3 {
   display: flex;
   margin-top: 1px;
+  margin-left: 420px;
 }
